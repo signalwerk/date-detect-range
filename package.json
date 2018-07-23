@@ -1,0 +1,27 @@
+{
+  "name": "date-detect-range",
+  "version": "1.0.0",
+  "description": "Prints a human readable version of an array of dates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm:next": "npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://signalwerk@github.com/signalwerk/date-detect-range.git"
+  },
+  "keywords": [
+    "date",
+    "range"
+  ],
+  "author": "Stefan Huber",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/signalwerk/date-detect-range/issues"
+  },
+  "homepage": "https://github.com/signalwerk/date-detect-range#readme",
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
